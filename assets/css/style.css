@@ -2662,7 +2662,7 @@ body.open-cart .main-wrapper:not(.sb-cartbox) {
 .e-nl-title {
   color: var(--heading-color);
   font-family: IRANSansfanum;
-  margin: 25px 0 0px 0;
+  margin: 25px 0 15px 0;
 }
 .e-nl-box {
   position: relative;
@@ -2888,7 +2888,6 @@ body.open-cart .main-wrapper:not(.sb-cartbox) {
 }
 .efoot-payment {
   display: flex;
-  flex-wrap: wrap;
 }
 .efoot-payment > li {
   margin-right: 15px;
@@ -4606,6 +4605,9 @@ i {
   color: #65bcc1;
 }
 
+#reg-or-log {
+  padding-right: 20px;
+}
 /********************************************************
     30. Media CSS Start
 ********************************************************/
@@ -5082,7 +5084,7 @@ i {
 @media (max-width: 1199px) {
   /* menu btn */
   .menu-btn {
-    margin-right: 20px;
+    margin: 20px;
     display: block;
   }
   .menu-btn span {
